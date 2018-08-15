@@ -1,0 +1,34 @@
+{
+    "name": "fastify-statsd",
+    "version": "1.0.0",
+    "description": "Add statsd logging for your endpoints in Fastify",
+    "main": "index.js",
+    "scripts": {
+        "test": "tap test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/piscopoc/fastify-statsd.git"
+    },
+    "keywords": [
+        "fastify",
+        "statsd",
+        "logging",
+        "fastify-plugin"
+    ],
+    "author": "Carmine Piscopo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/piscopoc/fastify-statsd/issues"
+    },
+    "homepage": "https://github.com/piscopoc/fastify-statsd#readme",
+    "devDependencies": {
+        "fastify": "^1.9.0",
+        "request": "^2.88.0",
+        "tap": "^12.0.1"
+    },
+    "dependencies": {
+        "fastify-plugin": "^1.2.0",
+        "hot-shots": "^5.9.0"
+    }
+}
